@@ -34,7 +34,7 @@ jobs:
         env:
           JEKYLL_ENV: production
           JEKYLL_GITHUB_TOKEN: ${{ secrets.JEKYLL_GITHUB_TOKEN }}
-          GH_PAGES_TOKEN: ${{ secrets.GH_PAGES_TOKEN }}
+          GH_PAGES_TOKEN: ${{ secrets.JEKYLL_GITHUB_TOKEN }}
           LC_ALL: "C.UTF-8"
           LANG: "en_US.UTF-8"
           LANGUAGE: "en_US.UTF-8"
