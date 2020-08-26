@@ -8,7 +8,7 @@ on:
   push:
     branches:
       # only deploy from master
-      - master
+      - davids-jekyll-issue
 #   schedule:
 #     # redeploy every morning to update unpublished pages
 #     - cron: "0 2 * * *"
